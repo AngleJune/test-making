@@ -40,7 +40,7 @@ const SignUp = () => {
 
     return (
         <div className="h-full w-full flex">
-            <div className="bg-gradient-to-r from-[#E1F1FF] to-[#ADD9FF] h-full m-6 flex flex-col w-full">
+            <div className="bg-gradient-to-r from-sky-100 to-blue-400 h-full m-6 flex flex-col w-full">
                 <div className="flex items-center justify-between pb-4">
                     <div className="w-1/2">
                         <img className="md:max-h-32 max-h-16 object-cover py-3 md:px-10" src={LogoImg} alt="/" />
@@ -55,7 +55,6 @@ const SignUp = () => {
                                 }
                             </select>
                         </div>
-
                     </div>
                 </div>
                 <div className="md:flex justify-center h-full">

@@ -47,8 +47,10 @@ const SelectCountry = () => {
                             <div className="flex flex-col mt-7 border border-yellow-500">
                                 <label htmlFor="" className="block text-sm font-bold">your country</label>
                                 <div className="mt-3 rounded-md border border-blue-500">
-                                    <input className="w-full" type="text" placeholder="Enter your country" />
-                                    <div className="z-10 border border-red-500 w-full h-full">
+                                    <span className="after:bg-[url('/')] after:w-6 after:h-6 after:content-['*'] after:absolute after:left-0"></span>
+                                    <input className="w-full py-3" type="text" placeholder="Enter your country" />
+                                    
+                                    <div className="z-30 border border-red-500 w-full h-full">
                                         <ul>
                                             <li className="border focus:bg-gray-200 hover:bg-gray-200">
                                                 <div className="flex">

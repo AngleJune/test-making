@@ -7,9 +7,9 @@ import SignUp from './components/login/SignUp';
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
       {/* <SignUp /> */}
-      {/* <SelectCountry /> */}
+      <SelectCountry />
     </>
   );
 }
